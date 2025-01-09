@@ -9,71 +9,56 @@ text-align: center;
   overflow: hidden; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
-/* General de la barra de navegación */
+.titulo{
+  color: tomato;
+  background-color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+/*Barra de navegacion*/
 .navbar {
-    background-color: #343a40; /* Color de fondo oscuro */
-    padding: 10px 20px; /* Espaciado */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
-  }
-  
-  /* Título (marca) */
-  .navbar-brand {
-    color: #ffffff; /* Color del texto de la marca */
-    font-size: 1.5rem; /* Tamaño más grande */
-    font-weight: bold;
-    text-transform: uppercase; /* Texto en mayúsculas */
-  }
-  
-  .navbar-brand:hover {
-    color: #17a2b8; 
-    text-decoration: none; 
-  }
-  
-  
-  .nav-link {
-    color: #f8f9fa; 
-    font-size: 1rem; 
-    margin-right: 15px; 
-    transition: color 0.3s; 
-  }
-  
-  .nav-link:hover {
-    color: #17a2b8; 
-  
-  /* Link activo */
-  .nav-link.active {
-    font-weight: bold;
-    color: #ffc107; 
-  }
-  
+  background-color: #343a40; 
+  padding: 10px;
+}
 
-  .navbar-toggler {
-    border: 2px solid #f8f9fa; 
-    border-radius: 5px; 
-  }
-  
-  .navbar-toggler-icon {
-    filter: invert(100%); 
-  
-  .form-control {
-    border: 2px solid #17a2b8; 
-    border-radius: 5px; 
-  }
-  
-  .form-control:focus {
-    border-color: #ffc107; 
-    box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
-  
-  .btn-outline-success {
-    color: #f8f9fa; 
-    border-color: #17a2b8; 
-    background-color: transparent;
-  }
-  
-  .btn-outline-success:hover {
-    background-color: #17a2b8;
-    color: #ffffff;
-  }
-  
+.container-fluid {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+.form-control {
+  width: 200px;
+}
+
+.btn-outline-success {
+  color: #fff;
+  border-color: #198754;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: #fff;
 }
